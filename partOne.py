@@ -3,6 +3,6 @@ def main():
     myFunction(slow)
 
 def myFunction(text):
-  #Your code goes here.
-
+  text =str.replace(text,' ', '...')
+  print(text)
 main()
